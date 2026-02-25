@@ -1,6 +1,6 @@
-# ns-tracing-server
+# GN Web Tracing Server
 
-A local server for storing and viewing recordings captured by the [ns-tracing Chrome extension](../ns-tracing-extension). Provides a web-based viewer with synchronized video playback, console log inspection, and network request analysis.
+A local server for storing and viewing recordings captured by the [GN Web Tracing Chrome extension](../gn-web-tracing-extension). Provides a web-based viewer with synchronized video playback, console log inspection, and network request analysis.
 
 ## Features
 
@@ -16,7 +16,7 @@ A local server for storing and viewing recordings captured by the [ns-tracing Ch
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                      ns-tracing-server                       │
+│                    gn-web-tracing-server                      │
 │                                                              │
 │  ┌──────────────────────────────────────────────────────┐   │
 │  │  Express.js Backend (TypeScript)                      │   │
@@ -223,7 +223,7 @@ Recording IDs are random hex strings (`crypto.randomBytes`) validated with `/^[a
 
 ## Related
 
-- **[ns-tracing-extension](../ns-tracing-extension)** — Chrome extension that captures recordings
+- **[gn-web-tracing-extension](../gn-web-tracing-extension)** — Chrome extension that captures recordings
 
 ## License
 

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Local web server for storing and viewing recordings captured by the ns-tracing Chrome extension. Provides synchronized video playback with console log inspection and network request analysis.
+Local web server for storing and viewing recordings captured by the GN Web Tracing Chrome extension. Provides synchronized video playback with console log inspection and network request analysis.
 
 ## Commands
 
@@ -91,4 +91,4 @@ multer config: 500MB video file, 50MB per text field (logs/metadata).
 
 ## Related
 
-- **ns-tracing-extension** (`../ns-tracing-extension`) — Chrome extension that captures and uploads recordings to this server
+- **gn-web-tracing-extension** (`../gn-web-tracing-extension`) — Chrome extension that captures and uploads recordings to this server
